@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" preserve-order="true" parallel="tests" thread-count="6">
+    <test name="Tests for Pixel">
+        <parameter name="device" value="Pixel_API_35"/>
+        <classes>
+            <class name="com.appium.FirstTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Tests for Medium Phone">
+        <parameter name="device" value="Medium_Phone_API_35"/>
+        <classes>
+            <class name="com.appium.FirstTest">
+            </class>
+        </classes>
+    </test>
+</suite>
